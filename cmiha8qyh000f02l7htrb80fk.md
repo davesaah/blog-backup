@@ -1,8 +1,8 @@
 ---
-title: "Setting Up My Dev Environment On My Android Device"
+title: "Build Software? No Laptop? Have Android? No Problem!"
 datePublished: Thu Nov 27 2025 10:20:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmiha8qyh000f02l7htrb80fk
-slug: setting-up-my-dev-environment-on-my-android-device
+slug: build-software-no-laptop-have-android-no-problem
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764238802877/b92e656c-a518-4c23-80d7-18606c590d84.jpeg
 tags: postgresql, linux, go, neovim, cli, android, tmux, termux, pgweb
 
