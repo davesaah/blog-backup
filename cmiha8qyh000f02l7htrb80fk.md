@@ -145,7 +145,7 @@ git clone git@gitlab.com/personal-os/nvim ~/.config/nvim
 We also need to get our tmux config:
 
 ```bash
-wget https://gitlab.com/personal-os/dotfiles-v2/-/raw/main/tmux/tmux.conf?ref_type=heads ~/.tmux.conf
+wget https://gitlab.com/personal-os/dotfiles-v2/-/raw/main/tmux/tmux.conf?ref_type=heads -O ~/.tmux.conf
 ```
 
 We are good to go.
