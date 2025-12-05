@@ -167,7 +167,7 @@ pkg install postgresql
 When you are done, you need to initialiaze the database:
 
 ```bash
-inidb -D $PREFIX/var/lib/postgres/data
+initdb -D $PREFIX/var/lib/postgres/data
 ```
 
 Create a postgres user:
