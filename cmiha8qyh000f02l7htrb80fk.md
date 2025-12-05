@@ -139,7 +139,7 @@ To setup ssh for working in your remote repos, github provides an excellent guid
 Next, we get our neovim config:
 
 ```bash
-git clone git@gitlab.com/personal-os/nvim ~/.config/nvim
+git clone https://gitlab.com/personal-os/nvim.git ~/.config/nvim
 ```
 
 We also need to get our tmux config:
