@@ -170,7 +170,7 @@ When you are done, you need to initialiaze the database:
 initdb -D $PREFIX/var/lib/postgres/data
 ```
 
-Create a postgres user:
+Create a postgres user: if you get an error of server not running, look at the command below to start the server.
 
 ```bash
 createuser --interactive
@@ -185,13 +185,13 @@ createdb local # local can be any name of your choice
 Then we need to start the database:
 
 ```bash
-pg_ctl -D $PREFIX/var/lib/postgresql start
+pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgres/data -l logfile start
 ```
 
 In case you want to stop it, you run a similar command:
 
 ```bash
-pg_ctl -D $PREFIX/var/lib/postgresql stop
+pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgres/data -l logfile stop
 ```
 
 As a lazy programmer that I am, I placed this into a bash script so I don't think about it.
